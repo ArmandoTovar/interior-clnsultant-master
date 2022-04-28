@@ -1,0 +1,23 @@
+
+
+code {
+
+}
+span {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1em;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-align:center;
+}

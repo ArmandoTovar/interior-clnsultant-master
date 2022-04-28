@@ -1,0 +1,82 @@
+.App{
+
+}
+.creacion {
+    position: relative;
+    display: block;
+    top: 200px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    text-align: center;
+    color: #A9A9A9;
+}
+.etiqueta {
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 10px;
+}
+.icono {
+    background-color:white;
+    color:white;
+    
+}
+.Barra {
+    margin: 50px 0 100px 0;
+}
+Nav p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3em;
+    line-height: 22px;
+    /* identical to box height */
+   
+    margin: 2px 2vw;
+  
+}
+.active {
+    border-bottom: 3px solid white;
+   
+}
+Nav{
+    margin:1000px;
+}
+#offcanvasNavbar {
+    width: auto;
+    display:none;
+}
+@media (max-width: 700px) {
+    #offcanvasNavbar {
+        width: 700px;
+        display: flex;
+        font-size: 24px;
+        background-color: black;
+    }
+
+
+    .active {
+        width: 100px;
+        margin: 0px auto 25px auto;
+        height: 40px;
+        border-bottom: 3px solid white;
+    }
+
+    p {
+        font-size: 1em;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        display:inline-block;
+    }
+}
+
+
